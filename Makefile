@@ -1,4 +1,4 @@
-satTest: clean File.o Proof.o Solver.o MineSat.o
+MineSat: clean File.o Proof.o Solver.o MineSat.o
 	g++ -o $@ -std=c++11 -g File.o Proof.o Solver.o MineSat.o
 
 File.o: File.cpp
